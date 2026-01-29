@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!--=============== Swiper slider ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/scss/styles.css">
+
+    <title>KC Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/index.html" class="nav__logo">
+                <img src="/assets/images/Logo.png" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/project.html" class="nav__link">Our Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/benefits.html" class="nav__link">Impact and Benefits</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact us</a>
+                    </li>
+                    <div class="nav__btns">
+                        <a class="button" href="/contact.html">Get Started</a>
+                    </div>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="/assets/images/KC-Revamp.svg" alt="Kimberley Logo" class="hero__img" />
+
+                <div class="home__data">
+                    <h1 class="home__title">Kimberley Carbon</h1>
+                    <p class="home__description">
+                        Partner with Aboriginal and Torres Strait Islander communities to offset your carbon footprint
+                        while
+                        supporting traditional land management, cultural preservation and enhanced community benefits.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#about" class="button button--flex">
+                            Explore Credits  <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>
+                        </a>
+                        <a href="#about" class="button button--flex button--pill">
+                            List Your Project
+                            <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <img src="assets/images/circle-overlay.png" alt="Decorative Circle"
+                class="hero__decor-circle hero__decor-circle--1" />
+            <img src="assets/images/circle-overlay.png" alt="Decorative Circle"
+                class="hero__decor-circle hero__decor-circle--2" />
+        </section>
+
+        <!--==================== Protect ====================-->
+        <section class="protect section container" id="protect">
+            <div class="protect__container">
+                <div class="protect__data">
+                    <h2 class="protect__title">Protecting Country,<br><span>Creating Future</span></h1>
+                        <p class="protect__description">
+                            Indigenous land management connects climate action with cultural continuity, employment, and
+                            care for
+                            future generations. Through partnership and respect, carbon markets can support both
+                            environmental and
+                            social outcomes.
+                        </p>
+                        <img src="/assets/images/Protecting Country.png" alt="website-isometric" class="protect__img" />
+                </div>
+            </div>
+        </section>
+        <!--==================== Impact ====================-->
+        <section class="impact container" id="impact">
+            <div class="impact__container">
+                <div class="impact__data">
+                    <h2 class="impact__title">
+                        First Nations-led solutions for high-integrity carbon outcomes
+                    </h2>
+                    <p class="impact__description">
+                        Our role is to ensure Indigenous carbon projects are supported, valued,
+                        and connected to buyers through a fair and transparent market.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--==================== Services ====================-->
+        <section class="services container" id="services-exchange">
+            <div class="services__container grid">
+                <img src="assets/images/carbon-exchage.png" alt="" class="services__img" />
+
+                <div class="services__data">
+                    <h2 class="section__title services__title">
+                        Carbon Exchange Services
+                    </h2>
+
+                    <p class="services__description">
+                        We operate a trusted exchange that enables the competitive bidding and sale of Indigenous carbon
+                        credits.
+                        <br><br>
+                        By bringing First Nations sellers and trusted buyers together in a transparent marketplace, we
+                        support price
+                        discovery, long-term partnerships, and market confidence while ensuring benefits flow back to
+                        Country and community.
+                    </p>
+
+                    <div class="services__details">
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z"></path></svg>
+                            We always deliver on time.
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z"></path></svg>
+                            We give you guides to protect and care for your plants.
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z"></path></svg>
+                            We always come over for a check-up after sale.
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z"></path></svg>
+                            100% money back guaranteed.
+                        </p>
+                    </div>
+
+                    <a href="#" class="button">Learn more</a>
+                </div>
+            </div>
+        </section>
+        <!--==================== Services ====================-->
+        <section class="services section container" id="services-advisory">
+            <div class="services__container grid">
+                <div class="services__data">
+                    <h2 class="section__title services__title">
+                        Indigenous Carbon Advisory
+                    </h2>
+
+                    <p class="services__description">
+                        Navigating carbon markets requires technical expertise, regulatory understanding, and cultural
+                        awareness.
+                        <br><br>
+                        Our advisory services support Aboriginal project owners, organisations, and buyers across the
+                        full carbon lifecycle.
+                    </p>
+
+                    <a href="#" class="button">Learn more</a>
+                </div>
+
+                <img src="assets/images/indigenous-carbon.png" alt="" class="services__img" />
+            </div>
+        </section>
+        <!--==================== Services ====================-->
+        <section class="services section container" id="services-credits">
+            <div class="services__container grid">
+                <img src="assets/images/high-integrity-indigenous.png" alt="" class="services__img" />
+
+                <div class="services__data">
+                    <h2 class="section__title services__title">
+                        High-Integrity Indigenous Carbon Credits
+                    </h2>
+
+                    <p class="services__description">
+                        Our credits come from Indigenous land management practices, including savanna fire management
+                        and ecosystem stewardship.
+                        <br><br>
+                        All credits meet recognised standards, giving buyers confidence in their integrity and impact.
+                    </p>
+
+                    <div class="services__details">
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z"></path></svg>
+                            Verified methodologies
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z"></path></svg>
+                            Regulatory compliance (e.g. ACCU-aligned where applicable)
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z"></path></svg>
+                            Clear social and community co-benefits
+                        </p>
+                    </div>
+
+                    <a href="#" class="button">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Testimonial ====================-->
+        <section class="testimonial__section">
+            <div class="testimonial_container">
+                <div class="swiper testimonial-swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide testimonial">
+                            <p class="label">Testimonial</p>
+                            <h2>
+                                <i>
+                                    <q>
+                                        Kimberly Carbon is Australia’s first Indigenous Carbon Exchange,
+                                        enabling competitive bidding and the sale of Indigenous carbon credits
+                                        with integrity, transparency, and community impact.
+                                    </q>
+                                </i>
+                            </h2>
+                            <p class="author">– Jane Doe</p>
+                        </div>
+
+                        <div class="swiper-slide testimonial">
+                            <p class="label">Testimonial</p>
+                            <h2>
+                                <i>
+                                    <q>
+                                        This platform ensures transparency while empowering Indigenous
+                                        communities to lead climate solutions. It provides the tools and support
+                                        needed for Indigenous projects to thrive, while buyers gain confidence
+                                        in the authenticity and impact of their carbon investments.
+                                    </q>
+                                </i>
+                            </h2>
+                            <p class="author">– John Smith</p>
+                        </div>
+
+                        <div class="swiper-slide testimonial">
+                            <p class="label">Testimonial</p>
+                            <h2>
+                                <i>
+                                    <q>
+                                        Kimberly Carbon creates real impact by connecting ethical buyers
+                                        with Indigenous-led carbon projects. By fostering collaboration and
+                                        sustainable practices, it ensures that both communities and the
+                                        environment benefit, driving meaningful change in carbon markets.
+                                    </q>
+                                </i>
+                            </h2>
+                            <p class="author">– Sarah Lee</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container">
+                    <p class="trusted__partner-title">Proudly supported by leading organisations committed to Indigenous
+                        empowerment and environmental sustainability.</p>
+                    <div class="trusted__partner">
+                        <a href="https://www.wilinggin.com.au/">
+                            <img src="/assets/images/partner-logo-1.png" alt="">
+                        </a>
+                        <a href="https://dambimangari.com.au/">
+                            <img src="/assets/images/partner-logo-2.png" alt="">
+                        </a>
+                        <a href="https://www.wunambalgaambera.org.au/">
+                            <img src="/assets/images/partner-logo-3.png" alt="">
+                        </a>
+                        <a href="/">
+                            <img src="/assets/images/partner-logo-4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Story ====================-->
+        <section class="indigenous-story section container">
+            <div class="indigenous__container ">
+                <h2 class="indigenous-story__title">
+                    Country, culture, and climate action
+                </h2>
+
+                <p class="indigenous-story__desc">
+                    Indigenous land management connects climate action with cultural continuity,
+                    employment, and care for future generations. Through partnership and respect,
+                    carbon markets can support both environmental and social outcomes.
+                </p>
+            </div>
+            <div class="indigenous-story__video">
+                <video src="/assets/images/ABOUT US Wilinggin Aboriginal Corporation (1).mp4" autoplay muted loop
+                    playsinline controls width="100%" style="border-radius: 15px;"></video>
+            </div>
+        </section>
+
+        <!--==================== Insight ====================-->
+        <section class="latest-insight section container">
+            <div class="container">
+                <div class="latest-insight__cards">
+                    <!-- Column 1: Text + Button -->
+                    <div class="insight-intro">
+                        <h2 class="latest-insight__title">Latest insight</h2>
+                        <p class="latest-insight__intro-text">
+                            Stay updated on how carbon projects are making a real impact and driving sustainable change
+                            in communities
+                            and the environment.
+                        </p>
+                        <div>
+                            <a href="#" class="latest-insight__button">Learn more</a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="insight-card">
+                        <img src="/assets/images/insight-1.png" alt="Land Management and Carbon"
+                            class="insight-card__img">
+                        <h3 class="insight-card__title">Land Management and Carbon</h3>
+                        <p class="insight-card__text">
+                            Explore how traditional land stewardship practices are transformed into verified,
+                            high-integrity carbon
+                            credits with real climate impact.
+                        </p>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="insight-card">
+                        <img src="/assets/images/insight-2.png" alt="High-Integrity Carbon Credits"
+                            class="insight-card__img">
+                        <h3 class="insight-card__title">High-Integrity Carbon Credits</h3>
+                        <p class="insight-card__text">
+                            Learn what defines a quality carbon credit, from measurement and verification to permanence,
+                            transparency,
+                            and long-term value.
+                        </p>
+                    </div>
+
+                    <!-- Column 4 -->
+                    <div class="insight-card">
+                        <img src="/assets/images/insight-3.png" alt="The Kimberley Landscape" class="insight-card__img">
+                        <h3 class="insight-card__title">The Kimberley Landscape</h3>
+                        <p class="insight-card__text">
+                            An overview of how carbon projects operate across the Kimberley, shaped by Country,
+                            community governance,
+                            and environmental conditions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img width="200px" src="/assets/images/KC-Revamp Logo (White).png" alt="">
+                </a>
+
+                <p class="footer__title-qoute">
+                    <q>Australia’s premier Indigenous carbon credit auction platform, promoting outstanding Carbon
+                        Credit
+                        sale outcomes to help fund enhanced First Nations community and healthy Country outcomes.
+                    </q>
+                </p>
+
+
+            </div>
+
+            <div class="footer__content">
+                <p class="footer__title">Company</p>
+
+                <ul class="footer__data">
+                    <li class="footer__information">About</li>
+                    <li class="footer__information">Projects</li>
+                    <li class="footer__information">Impact Report</li>
+                    <li class="footer__information">Careers</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <p class="footer__title">Support</p>
+
+                <ul class="footer__data">
+                    <li class="footer__information">Contact</li>
+                    <li class="footer__information">FAQ</li>
+                    <li class="footer__information">Terms & Conditions</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__subscribe">
+                    <input type="email" placeholder="Enter your email" class="footer__input">
+
+                    <button class="button button--flex footer__button">
+                        Subscribe
+                        <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>
+                    </button>
+                </div>
+                <span class="footer__title-small">
+                    By subscribing you agree to with our <a href="#">Privacy Policy</a>
+                    </p>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Kimberley Carbon. All rigths reserved</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <svg class="scrollup__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path></svg>
+    </a>
+    <!--=============== slider ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

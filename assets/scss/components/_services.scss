@@ -1,0 +1,36 @@
+/*=============== SERVICES ===============*/
+.services__container {
+  row-gap: 2rem;
+}
+
+.services__img {
+  width: 280px;
+  justify-self: center;
+}
+
+.services__title {
+  margin-bottom: var(--mb-1);
+}
+
+.services__description {
+  margin-bottom: var(--mb-2);
+}
+
+.services__details {
+  display: grid;
+  row-gap: 1rem;
+  margin-bottom: var(--mb-2-5);
+}
+
+.services__details-description {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: var(--small-font-size);
+}
+
+.services__details-icon {
+  font-size: 1rem;
+  color: var(--first-color);
+  margin-top: 0.15rem;
+}

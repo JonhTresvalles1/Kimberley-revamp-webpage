@@ -1,0 +1,22 @@
+.indigenous-story {
+  padding: 4.5rem 0 0;
+  position: relative;
+}
+
+.indigenous-story__title {
+  font-size: 58px;
+  line-height: 1;
+  margin-bottom: var(--mb-1);
+  text-align: center;
+  margin-inline: auto;
+}
+
+.indigenous-story__desc {
+  text-align: center;
+  max-width: 850px;
+  margin: 1.5rem auto var(--mb-2-5);
+}
+
+.indigenous-story__video {
+  overflow: hidden;
+}

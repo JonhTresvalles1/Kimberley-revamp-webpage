@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/scss/styles.css">
+    <title>KC Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/index.html" class="nav__logo">
+                <img src="/assets/images/Logo.png" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/project.html" class="nav__link">Our Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/benefits.html" class="nav__link">Impact and Benefits</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact us</a>
+                    </li>
+                    <div class="nav__btns">
+                        <a class="button" href="/contact.html">Get Started</a>
+                    </div>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main class="main">
+
+        <section class="contact">
+
+            <div class="contact-section">
+                <!-- Left Panel -->
+                <div class="contact-data">
+                    <div class="contact-left">
+                        <h2>Contact our sales team</h2>
+                        <p>Partner with Aboriginal and Torres Strait Islander communities to offset your carbon
+                            footprint
+                            while supporting traditional land management, cultural preservation and enhanced community
+                            benefits.</p>
+                        <div class="partners">
+                            <a href="https://www.wilinggin.com.au/">
+                                <img src="/assets/images/partner-logo-1.png" alt="">
+                            </a>
+                            <a href="https://dambimangari.com.au/">
+                                <img src="/assets/images/partner-logo-2.png" alt="">
+                            </a>
+                            <a href="https://www.wunambalgaambera.org.au/">
+                                <img src="/assets/images/partner-logo-3.png" alt="">
+                            </a>
+                            <a href="/">
+                                <img src="/assets/images/partner-logo-4.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Panel -->
+                <div class="contact-form">
+                    <div class="contact-right">
+                        <h2>I want to</h2>
+
+                        <div class="form-toggle">
+                            <button type="button" class="toggle-btn active" data-type="buy">
+                                Buy Carbon Credits
+                            </button>
+                            <button type="button" class="toggle-btn inactive" data-type="sell">
+                                Sell Carbon Credits
+                            </button>
+                        </div>
+
+                        <form id="contactForm">
+                            <!-- Buyer Type -->
+                            <div class="form-group" id="buyerTypeGroup">
+                                <label for="buyerType">Buyer type *</label>
+                                <select id="buyerType" name="buyerType" required>
+                                    <option value="" disabled selected>Select buyer type</option>
+                                    <option value="company">Company</option>
+                                    <option value="broker">Broker</option>
+                                    <option value="individual">Individual</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>First name *</label>
+                                <input type="text" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Last name *</label>
+                                <input type="text" required>
+                            </div>
+
+                            <!-- Company / Business -->
+                            <div class="form-group" id="companyGroup">
+                                <label id="companyLabel">Company name *</label>
+                                <input type="text" id="companyInput">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Email *</label>
+                                <input type="email" required>
+                            </div>
+
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!--==================== Story ====================-->
+        <section class="indigenous-story section container">
+            <div class="indigenous__container ">
+                <h2 class="indigenous-story__title">
+                    From land management to <br> measurable carbon outcomes.
+                </h2>
+            </div>
+            <div class="indigenous-story__video">
+                <video src="/assets/images/ABOUT US Wilinggin Aboriginal Corporation (1).mp4" autoplay muted loop
+                    playsinline controls width="100%" style="border-radius: 15px;"></video>
+            </div>
+        </section>
+
+        <!--==================== Insight ====================-->
+        <section class="latest-insight section container">
+            <div class="container">
+                <div class="latest-insight__cards">
+                    <!-- Column 1: Text + Button -->
+                    <div class="insight-intro">
+                        <h2 class="latest-insight__title">Latest insight</h2>
+                        <p class="latest-insight__intro-text">
+                            Stay updated on how carbon projects are making a real impact and driving sustainable change
+                            in communities
+                            and the environment.
+                        </p>
+                        <div>
+                            <a href="#" class="latest-insight__button">Learn more</a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="insight-card">
+                        <img src="/assets/images/insight-1.png" alt="Land Management and Carbon"
+                            class="insight-card__img">
+                        <h3 class="insight-card__title">Land Management and Carbon</h3>
+                        <p class="insight-card__text">
+                            Explore how traditional land stewardship practices are transformed into verified,
+                            high-integrity carbon
+                            credits with real climate impact.
+                        </p>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="insight-card">
+                        <img src="/assets/images/insight-2.png" alt="High-Integrity Carbon Credits"
+                            class="insight-card__img">
+                        <h3 class="insight-card__title">High-Integrity Carbon Credits</h3>
+                        <p class="insight-card__text">
+                            Learn what defines a quality carbon credit, from measurement and verification to permanence,
+                            transparency,
+                            and long-term value.
+                        </p>
+                    </div>
+
+                    <!-- Column 4 -->
+                    <div class="insight-card">
+                        <img src="/assets/images/insight-3.png" alt="The Kimberley Landscape" class="insight-card__img">
+                        <h3 class="insight-card__title">The Kimberley Landscape</h3>
+                        <p class="insight-card__text">
+                            An overview of how carbon projects operate across the Kimberley, shaped by Country,
+                            community governance,
+                            and environmental conditions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img width="200px" src="/assets/images/KC-Revamp Logo (White).png" alt="">
+                </a>
+
+                <p class="footer__title-qoute">
+                    <q>Australia’s premier Indigenous carbon credit auction platform, promoting outstanding Carbon
+                        Credit
+                        sale outcomes to help fund enhanced First Nations community and healthy Country outcomes.
+                    </q>
+                </p>
+
+
+            </div>
+
+            <div class="footer__content">
+                <p class="footer__title">Company</p>
+
+                <ul class="footer__data">
+                    <li class="footer__information">About</li>
+                    <li class="footer__information">Projects</li>
+                    <li class="footer__information">Impact Report</li>
+                    <li class="footer__information">Careers</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <p class="footer__title">Support</p>
+
+                <ul class="footer__data">
+                    <li class="footer__information">Contact</li>
+                    <li class="footer__information">FAQ</li>
+                    <li class="footer__information">Terms & Conditions</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__subscribe">
+                    <input type="email" placeholder="Enter your email" class="footer__input">
+
+                    <button class="button button--flex footer__button">
+                        Subscribe
+                        <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>
+                    </button>
+                </div>
+                <span class="footer__title-small">
+                    By subscribing you agree to with our <a href="#">Privacy Policy</a>
+                    </p>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Kimberley Carbon. All rigths reserved</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <svg class="scrollup__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path></svg>
+    </a>
+    <!--=============== slider ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

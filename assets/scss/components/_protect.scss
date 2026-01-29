@@ -1,0 +1,40 @@
+.protect {
+  padding: 3.5rem 0 2rem;
+  position: relative;
+}
+
+.protect__container {
+  row-gap: 2rem;
+  position: relative;
+}
+
+.protect__img {
+  width: 1200px;
+  display: flex;
+  margin: 1.5rem auto;
+}
+
+.protect__data {
+  align-items: center;
+}
+
+.protect__title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: var(--mb-1);
+  text-align: center;
+  color: var(--second-color);
+}
+
+.protect__title span {
+  color: var(--first-color);
+}
+
+.protect__description {
+  text-align: center;
+  max-width: 668px;
+  margin: 1.5rem auto var(--mb-2-5);
+  font-size: var(--normal-font-size);
+  line-height: 1.6;
+}
