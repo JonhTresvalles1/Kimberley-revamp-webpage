@@ -1,0 +1,25 @@
+.outcome__data {
+    text-align: center;
+    margin-bottom: var(--mb-2);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outcome__container-cards {
+    gap: 2rem;
+}
+
+.outcome__card {
+    border: solid 1px #7a462e34;
+    background-color: rgba(122, 70, 46, 0.1);
+    padding: 2rem 1rem;
+    border-radius: .75rem;
+}
+
+.outcome__card-icon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: var(--mb-1);
+}

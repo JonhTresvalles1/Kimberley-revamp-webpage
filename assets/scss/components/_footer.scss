@@ -80,6 +80,14 @@
     font-size: var(--small-font-size);
 }
 
+.footer__information a{
+    color: #fff;
+}
+
+.footer__information a:hover{
+   text-decoration: underline;
+}
+
 .footer__social {
     display: inline-flex;
     column-gap: 0.75rem;

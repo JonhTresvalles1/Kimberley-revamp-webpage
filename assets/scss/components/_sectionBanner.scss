@@ -1,0 +1,67 @@
+.banner__container {
+    position: relative;
+    background-image: url('../images/protecting-country.png');
+    background-size: cover;
+    background-position: center;
+    padding: 140px 20px 140px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner__container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right,
+            rgba(125, 78, 54, 0.68),
+            rgba(122, 70, 46, 0.68));
+}
+
+.banner__content {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 0;
+    z-index: 2;
+}
+
+.banner__content h1 {
+    font-size: var(--big-font-size);
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.banner__content p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: auto;
+}
+
+.banner__buttons {
+    z-index: 2;
+    position: relative;
+}
+
+
+.banner__buttons a:first-child {
+    color: var(--first-color);
+    background-color: var(--container-color);
+    margin: 1rem;
+}
+
+.banner__buttons a:nth-child(2) {
+    color: var(--container-color);
+    border: 1px solid var(--container-color);
+    margin: 1rem;
+}
+
+
+.benefit__section .banner__content h1{
+    margin: 0 auto 20px;
+}
+
+.benefit__section .banner__content p{
+    margin: 0 auto;
+}

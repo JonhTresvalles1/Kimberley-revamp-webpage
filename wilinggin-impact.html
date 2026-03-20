@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/images/Fav-icon.svg" type="image/x-icon">
+
+    <!--=============== Swiper slider ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/scss/styles.css">
+
+    <title>Kimberley Carbon</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/images/Logo.png" alt="Logo">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg class="nav__burger" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                    </svg>
+                    <svg class="nav__close" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li>
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+
+                    <!--=============== DROPDOWN PROJECTS ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <a href="project.html">Our Projects</a>
+                            <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                            </svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="wilinggin-fire-management.html" class="dropdown__link">
+                                    Wilinggin
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="dambimangari-fire-management.html" class="dropdown__link">
+                                    Dambimangari
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="wunambal-gaambera-uunguu-fire-management.html" class="dropdown__link">
+                                    Wunambal&nbsp;Gaambera&nbsp;Uunguu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="balanggarra-fire-management.html" class="dropdown__link">
+                                    Balanggarra
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--=============== Impact and Benefits ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <a href="/">Impact and Benefits</a>
+                            <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                            </svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="impact.html" class="dropdown__link">
+                                    Impact
+                                </a>
+                            </li>
+                            <li>
+                                <a href="benefits.html" class="dropdown__link">
+                                    Benefits
+                                </a>
+                            </li>
+                            <li>
+                                <a href="wilinggin-impact.html" class="dropdown__link">
+                                    Wilinggin&nbsp;Aboriginal&nbsp;Corporation
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--=============== Impact and Benefits ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Who It's For
+                            <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                            </svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="seller.html" class="dropdown__link">
+                                    Sellers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buyer.html" class="dropdown__link">
+                                    Buyers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="broker.html" class="dropdown__link">
+                                    Broker&nbsp;Services
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li class="nav__button">
+                        <a href="contact.html" class="nav__button button">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main class="main">
+
+        <!--==================== Banner Hero ====================-->
+        <section class="banner__section benefit__section">
+            <div class="banner__container">
+                <div class="banner__content">
+                    <h1> Protecting Country, Strengthening Culture,
+                        Building Futures.</h1>
+                    <p>
+                        Wilinggin Aboriginal Corporation’s work goes beyond carbon outcomes.<br><br>
+                        Through cultural fire management and community-led initiatives across Ngarinyin Country in the
+                        North Kimberley, Traditional Owners deliver lasting cultural, social, economic, health, and
+                        environmental benefits—led by Indigenous governance and guided by cultural law.
+                    </p>
+                </div>
+
+                <div class="banner__buttons">
+                    <a href="#about" class="button button--flex">
+                        Explore Credits
+                    </a>
+                    <a href="#about" class="button button--flex button--pill">
+                        Download Project Data
+                        <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--==================== Services ====================-->
+        <section class="services section container" id="services-credits">
+            <div class="services__container grid">
+                <img src="assets/images/our-vision.png" alt="High-Integrity Indigenous Carbon Credits"
+                    class="services__img" />
+
+                <div class="services__data">
+                    <h2 class="section__title services__title">
+                        Employment & Skills Development
+                    </h2>
+
+                    <p class="services__description">
+                        Carbon projects create meaningful, long-term employment opportunities that keep people connected
+                        to Country.
+                    </p>
+
+                    <div class="services__details">
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Full-time ranger positions for Traditional Owners
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Technical training in fire management, ecological monitoring, and emerging technologies
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Gender-inclusive employment pathways creating opportunities for Indigenous women
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Professional development that strengthens leadership capacity within community
+                        </p>
+                    </div>
+
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+        </section>
+        <!--==================== Services ====================-->
+        <section class="services section container" id="services-credits">
+            <div class="services__container grid">
+                <div class="services__data">
+                    <h2 class="section__title services__title">
+                        Cultural Preservation & Connection to Country
+                    </h2>
+
+                    <p class="services__description">
+                        Cultural fire management is a continuation of ancient practice.
+                    </p>
+
+                    <div class="services__details">
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Traditional ecological knowledge integrated with contemporary land management systems
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Elder-guided early dry season burning protecting 1.4 million hectares
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Intergenerational knowledge transmission through on-Country programs
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Bush medicine revival and cultural healing initiatives
+                        </p>
+                    </div>
+
+                    <a href="#" class="button">Get Started</a>
+                </div>
+
+                <img src="assets/images/fire-management.png" alt="High-Integrity Indigenous Carbon Credits"
+                    class="services__img" />
+            </div>
+        </section>
+        <!--==================== Services ====================-->
+        <section class="services section container" id="services-credits">
+            <div class="services__container grid">
+                <img src="assets/images/community-strengthening.png" alt="High-Integrity Indigenous Carbon Credits"
+                    class="services__img" />
+
+                <div class="services__data">
+                    <h2 class="section__title services__title">
+                        Community Strengthening
+                    </h2>
+
+                    <p class="services__description">
+                        Wilinggin’s initiatives reinvest carbon revenue directly into programs that uplift families,
+                        youth, and Elders.
+                    </p>
+
+                    <div class="services__details">
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Youth education programs blending cultural and contemporary learning
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Elder support services and cultural program funding
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Community infrastructure development in remote areas
+                        </p>
+                        <p class="services__details-description">
+                            <svg class="services__details-icon" xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z">
+                                </path>
+                            </svg>
+                            Enhanced self-determination and local decision-making authority
+                        </p>
+                    </div>
+
+                    <p class="services__description">
+                        This approach empowers Traditional Owners to shape their own social and economic futures.
+                    </p>
+
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Services ====================-->
+        <section class="services section container" id="services-credits">
+            <div class="services__container grid">
+                <div class="services__data">
+                    <h2 class="section__title services__title">
+                        Healthy Communities Initiatives
+                    </h2>
+
+                    <p class="services__description">
+                        Healthy Communities Initiatives strengthen self-determining First Nations communities by
+                        ensuring health and wellbeing are guided by culture.
+                    </p>
+                    <p class="services__description">
+                        The programs provide culturally safe, community-led health services, support local workforce
+                        delivery, and strengthen resilience through connection to Country, culture, and family.
+                    </p>
+                    <p class="services__description">
+                        By responding to persistent health disparities in remote Aboriginal and Torres Strait Islander
+                        communities, this approach reinforces that community-controlled, culturally secure healthcare is
+                        the most effective and sustainable path forward. For Wilinggin, health is inseparable from land,
+                        culture, and self-determination.
+                    </p>
+
+                    <a href="#" class="button">Get Started</a>
+                </div>
+
+                <img src="assets/images/healthy-communities.png" alt="High-Integrity Indigenous Carbon Credits"
+                    class="services__img" />
+            </div>
+        </section>
+
+        <section class="outcome section">
+            <div class="outcome__container  container">
+                <div class="outcome__data">
+                    <h2 class="outcome__title section__title">
+                        Economic & Environmental Outcomes
+                    </h2>
+
+                    <p class="carbon__description">
+                        Driving long-term prosperity through community-led carbon initiatives. Revenue generated through
+                        cultural fire management strengthens financial independence, supports sustainable development,
+                        and ensures economic benefits remain on Country.
+                    </p>
+                </div>
+
+
+                <div class="outcome__container-cards grid">
+
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/emissions-reduction-icon.svg" alt="Emissions Reduction Icon">
+                            <h3>Strong Carbon Revenue</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>ACCU sales generated $2.26M+ in 2025, providing a stable financial foundation for
+                                long-term planning and growth.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/measurable-icon.svg" alt="Reduced Grant Dependency">
+                            <h3>Reduced Grant Dependency</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Carbon income reduces reliance on short-term funding cycles and strengthens financial
+                                independence.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/premium-icon.svg" alt="Indigenous Carbon Premium">
+                            <h3>Indigenous Carbon Premium</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Credits with verified Indigenous co-benefits achieve over 50% premium compared to generic
+                                carbon credits.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/biodiversity-connect-icon.svg" alt="Diversified Revenue Streams">
+                            <h3>Diversified Revenue Streams</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Multiple income sources support long-term sustainability and reduce financial risk.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/community-control-icon.svg" alt="Community-Controlled Development">
+                            <h3>Community-Controlled Development</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Economic growth is led by Traditional Owners and aligned with cultural values and
+                                priorities.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/landscape-icon.svg" alt="Connection to Country">
+                            <h3>Connection to Country</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Regular cultural burning strengthens the spiritual and cultural relationship between
+                                people and their land.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--==================== newsletter__banner ====================-->
+        <section class="newsletter__banner container" id="">
+            <div class="newsletter__banner-wrapper">
+                <div class="newsletter__banner-container">
+                    <div class="newsletter__banner-data">
+                        <h2 class="section__title newsletter__banner-title">
+                            Environmental Stewardship
+                        </h2>
+
+                        <p class="newsletter__banner-description">
+                            Right-way fire management delivers measurable climate and biodiversity outcomes across
+                            Wilinggin Country. Early dry season burning reduces the risk of destructive late-season
+                            wildfires, protecting vulnerable habitats, biodiversity, and sacred cultural sites.
+                            <br><br>
+                            This approach safeguards existing carbon investments and revegetation projects while
+                            demonstrating that traditional knowledge is a proven and scalable climate solution. Through
+                            these practices, Wilinggin has achieved a 40% reduction in emissions.
+                            <br><br>
+                            By applying cultural fire management at scale, Wilinggin contributes to national climate
+                            goals and global climate solutions while maintaining ecological balance across 1.4 million
+                            hectares of Country.
+                        </p>
+
+                        <a href="/" class="button button--white">Get Started</a>
+                    </div>
+                    <img src="assets/images/newletter-banner.png" alt="" class="newsletter__banner-img" />
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img width="200px" src="assets/images/kc-revamp-logo(white).png" alt="Kimberley Carbon Logo">
+                </a>
+
+                <p class="footer__title-qoute">
+                    <q>Australia’s premier Indigenous carbon credit auction platform, promoting outstanding Carbon
+                        Credit sale outcomes to help fund enhanced First Nations community and healthy Country outcomes.
+                    </q>
+                </p>
+
+
+            </div>
+
+            <div class="footer__content">
+                <p class="footer__title">Company</p>
+
+                <ul class="footer__data">
+                    <li class="footer__information">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="project.html">Projects</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="impact.html">Impact</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="about.html">Benefits</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <p class="footer__title">Support</p>
+
+                <ul class="footer__data">
+                    <li class="footer__information">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="broker.html">Broker Services</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="/">Terms & Conditions</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__subscribe">
+                    <input type="email" placeholder="Enter your email" class="footer__input">
+
+                    <button class="button button--flex footer__button">
+                        Subscribe
+                        <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>
+                    </button>
+                </div>
+                <span class="footer__title-small">
+                    By subscribing you agree to with our <a href="#">Privacy Policy</a>
+                    </p>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Kimberley Carbon. All rigths reserved</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <svg class="scrollup__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            fill="currentColor">
+            <path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path>
+        </svg>
+    </a>
+    <!--=============== slider ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

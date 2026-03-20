@@ -1,0 +1,21 @@
+.trusted__network {
+  padding: 3rem 1rem;
+  background-image: url("../images/section-overlay.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: var(--first-color);
+  margin-top: 2rem;
+}
+
+
+.trusted__network-data{
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.trusted__network-data h2{
+  color: #fff;
+}
