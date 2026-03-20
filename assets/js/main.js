@@ -92,7 +92,7 @@ if (typeof ScrollReveal !== 'undefined') {
     delay: 400
   })
 
-  sr.reveal('.home__data, .newsletter__banner-wrapper, .banner__section, .benefit__section, .trusted__network, .steps__flow-data, .steps__data')
+  sr.reveal('.home__data, .newsletter__banner-wrapper, .banner__section, .benefit__section, .trusted__network, .steps__flow-data, .steps__data, .projects__dropdown-wrapper')
   sr.reveal('.hero__img, .chart-card, .traditional__container', { delay: 500 })
   sr.reveal('.protect__data, .carbon__data, .impact__data, .testimonial__section, .indigenous__container, .aboutus__text-data, .outcome__container', { delay: 600 })
   sr.reveal('.services__img, .contact__box, .contact-data, .hero__decor-circle--2, .vision__img, .governance__img, .verified__impact-content', { origin: 'left' })
