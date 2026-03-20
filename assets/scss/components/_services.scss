@@ -1,11 +1,12 @@
 /*=============== SERVICES ===============*/
 .services__container {
   row-gap: 2rem;
+  align-items: center;
 }
 
 .services__img {
-  width: 280px;
   justify-self: center;
+  border-radius: .5rem;
 }
 
 .services__title {

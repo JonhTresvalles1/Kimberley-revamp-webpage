@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/images/Fav-icon.svg" type="image/x-icon">
+
+    <!--=============== Swiper slider ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/scss/styles.css">
+
+    <title>Kimberley Carbon</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/images/Logo.png" alt="Logo">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg class="nav__burger" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                    </svg>
+                    <svg class="nav__close" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li>
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+
+                    <!--=============== DROPDOWN PROJECTS ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <a href="project.html">Our Projects</a>
+                            <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                            </svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="wilinggin-fire-management.html" class="dropdown__link">
+                                    Wilinggin
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="dambimangari-fire-management.html" class="dropdown__link">
+                                    Dambimangari
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="wunambal-gaambera-uunguu-fire-management.html" class="dropdown__link">
+                                    Wunambal&nbsp;Gaambera&nbsp;Uunguu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="balanggarra-fire-management.html" class="dropdown__link">
+                                    Balanggarra
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--=============== Impact and Benefits ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <a href="/">Impact and Benefits</a>
+                            <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                            </svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="impact.html" class="dropdown__link">
+                                    Impact
+                                </a>
+                            </li>
+                            <li>
+                                <a href="benefits.html" class="dropdown__link">
+                                    Benefits
+                                </a>
+                            </li>
+                            <li>
+                                <a href="wilinggin-impact.html" class="dropdown__link">
+                                    Wilinggin&nbsp;Aboriginal&nbsp;Corporation
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--=============== Impact and Benefits ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Who It's For
+                            <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                            </svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="seller.html" class="dropdown__link">
+                                    Sellers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buyer.html" class="dropdown__link">
+                                    Buyers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="broker.html" class="dropdown__link">
+                                    Broker&nbsp;Services
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li class="nav__button">
+                        <a href="contact.html" class="nav__button button">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main class="main">
+
+        <!--==================== Banner Hero ====================-->
+        <section class="banner__section benefit__section">
+            <div class="banner__container">
+                <div class="banner__content">
+                    <h1>
+                        Facilitate High-Integrity<br>
+                        Carbon Transactions
+                    </h1>
+                    <p>
+                        Kimberley Carbon enables brokers to connect corporate buyers with Indigenous-led ACCU
+                        projects<br>
+                        through a transparent and trusted exchange platform.
+                    </p>
+                </div>
+
+                <div class="banner__buttons">
+                    <a href="#about" class="button button--flex">
+                        Join as a Broker
+                    </a>
+                    <a href="#about" class="button button--flex button--pill">
+                        Learn How It Works
+                        <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="outcome section">
+            <div class="outcome__container  container">
+                <div class="outcome__data">
+                    <h2 class="outcome__title section__title">
+                        Why Partner as a Broker?
+                    </h2>
+
+                    <p class="carbon__description">
+                        Work within a trusted marketplace that connects verified Indigenous carbon projects with serious
+                        buyers while ensuring transparency and integrity.
+                    </p>
+                </div>
+
+
+                <div class="outcome__container-cards grid">
+
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/access-icon.svg" alt="Access to Verified Buyers">
+                            <h3>Access to Quality Supply</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Connect with organisations actively seeking high integrity Indigenous-backed carbon
+                                credits.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/market-icon.svg" alt="Competitive Market Pricing">
+                            <h3>Transparent Marketplace</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Participate in a clear and secure bidding process that reflects fair market value.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/trust-icon.svg" alt="Cultural Governance">
+                            <h3>Trusted Relationships</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Build long-term partnerships with project developers and corporate buyers committed to
+                                high-integrity offsets.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/listing-icon.svg" alt="Streamlined Listing">
+                            <h3>Streamlined Transactions</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Benefit from a secure and efficient process that simplifies coordination, documentation,
+                                and settlement.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!--==================== trusted/partners logo ====================-->
+        <section class="trusted__network">
+            <div class="trusted__network-container container">
+                <div class="trusted__network-data">
+                    <h2 class="section__title">Verified, Trusted, and Community-Backed</h2>
+                    <p>All ACCUs on our platform are Clean Energy Regulator-verified and supported by leading Indigenous
+                        organisations, ensuring every credit delivers genuine environmental and social impact.</p>
+                </div>
+
+
+                <div class="trusted__partner">
+                    <a href="https://www.wilinggin.com.au/">
+                        <img src="assets/images/partner-logo-1.png" alt="Wilinggin logo">
+                    </a>
+                    <a href="https://dambimangari.com.au/">
+                        <img src="assets/images/partner-logo-2.png" alt="Dambimangari logo">
+                    </a>
+                    <a href="https://www.wunambalgaambera.org.au/">
+                        <img src="assets/images/partner-logo-3.png" alt="Wunambalgaambera logo">
+                    </a>
+                    <a href="/">
+                        <img src="assets/images/partner-logo-4.png" alt="Wanjina-Wunggurr PBC logo">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== How it works ====================-->
+        <section class="steps__flow section">
+            <div class="steps__flow-container container">
+                <div class="steps__flow-data">
+                    <h2 class="section__title">How It Works</h2>
+                    <p>Easily navigate the carbon market: register, explore available ACCUs, bid competitively, and
+                        secure verified offsets with confidence.</p>
+                </div>
+            </div>
+
+            <div class="steps__flow-cards container grid">
+                <div class="steps__flow-card">
+                    <div class="steps__flow-icon">
+                        <h5>1</h5>
+                    </div>
+                    <div class="step__flow-icon-data">
+                        <h4>Register as a Broker</h4>
+                        <p>Create your account and complete onboarding to access listed Indigenous-led ACCUs.</p>
+                    </div>
+
+                </div>
+                <div class="steps__flow-card">
+                    <div class="steps__flow-icon">
+                        <h5>2</h5>
+                    </div>
+                    <div class="step__flow-icon-data">
+                        <h4>Review Available Projects</h4>
+                        <p>Explore verified carbon projects and assess credit availability, pricing, and documentation.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="steps__flow-card">
+                    <div class="steps__flow-icon">
+                        <h5>3</h5>
+                    </div>
+                    <div class="step__flow-icon-data">
+                        <h4>Connect Buyers and Sellers</h4>
+                        <p>Facilitate introductions, manage negotiations, and coordinate bidding activity.</p>
+                    </div>
+
+                </div>
+                <div class="steps__flow-card">
+                    <div class="steps__flow-icon">
+                        <h5>4</h5>
+                    </div>
+                    <div class="step__flow-icon-data">
+                        <h4>Secure Transaction</h4>
+                        <p>Complete your sale securely with full Clean Energy Regulator verification, and watch your
+                            impact grow.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== newsletter__banner ====================-->
+        <section class="newsletter__banner container" id="">
+            <div class="newsletter__banner-wrapper">
+                <div class="newsletter__banner-container">
+                    <div class="newsletter__banner-data">
+                        <h2 class="section__title newsletter__banner-title">
+                            Environmental Stewardship
+                        </h2>
+
+                        <p class="newsletter__banner-description">
+                            Right-way fire management delivers measurable climate and biodiversity outcomes across
+                            Wilinggin Country. Early dry season burning reduces the risk of destructive late-season
+                            wildfires, protecting vulnerable habitats, biodiversity, and sacred cultural sites.
+                            <br><br>
+                            This approach safeguards existing carbon investments and revegetation projects while
+                            demonstrating that traditional knowledge is a proven and scalable climate solution. Through
+                            these practices, Wilinggin has achieved a 40% reduction in emissions.
+                            <br><br>
+                            By applying cultural fire management at scale, Wilinggin contributes to national climate
+                            goals and global climate solutions while maintaining ecological balance across 1.4 million
+                            hectares of Country.
+                        </p>
+
+                        <a href="/" class="button button--white">Register as a Broker</a>
+                    </div>
+                    <img src="assets/images/newletter-banner.png" alt="" class="newsletter__banner-img" />
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+     <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img width="200px" src="assets/images/kc-revamp-logo(white).png" alt="Kimberley Carbon Logo">
+                </a>
+
+                <p class="footer__title-qoute">
+                    <q>Australia’s premier Indigenous carbon credit auction platform, promoting outstanding Carbon
+                        Credit sale outcomes to help fund enhanced First Nations community and healthy Country outcomes.
+                    </q>
+                </p>
+
+
+            </div>
+
+            <div class="footer__content">
+                <p class="footer__title">Company</p>
+
+                <ul class="footer__data">
+                    <li class="footer__information">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="project.html">Projects</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="impact.html">Impact</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="about.html">Benefits</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <p class="footer__title">Support</p>
+
+                <ul class="footer__data">
+                    <li class="footer__information">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="broker.html">Broker Services</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="/">Terms & Conditions</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__subscribe">
+                    <input type="email" placeholder="Enter your email" class="footer__input">
+
+                    <button class="button button--flex footer__button">
+                        Subscribe
+                        <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>
+                    </button>
+                </div>
+                <span class="footer__title-small">
+                    By subscribing you agree to with our <a href="#">Privacy Policy</a>
+                    </p>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Kimberley Carbon. All rigths reserved</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <svg class="scrollup__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            fill="currentColor">
+            <path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path>
+        </svg>
+    </a>
+    <!--=============== slider ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

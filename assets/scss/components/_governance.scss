@@ -1,0 +1,90 @@
+/*=============== governance ===============*/
+.governance__container {
+    gap: 2rem;
+    align-items: center;
+}
+
+.governance__img img {
+    border-radius: .5rem;
+}
+
+.governance__description {
+    font-size: var(--normal-font-size);
+    margin-bottom: 2rem;
+    color: var(--body-font);
+}
+
+.governance__accordion {
+    display: grid;
+    row-gap: 1.5rem;
+}
+
+.governance__accordion-item {
+    background-color: rgb(122 70 46 / 10%);
+    border: solid 1px #CFBDAF;
+    border-radius: .5rem;
+    padding: 1rem .75rem;
+}
+
+.governance__accordion-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.governance__accordion-icon {
+    margin-right: .75rem;
+    transition: .3s;
+}
+
+.governance__accordion-header svg {
+    color: var(--first-color);
+}
+
+.governance__accordion-header h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: var(--second-color);
+}
+
+.governance__accordion-arrow {
+    display: inline-flex;
+    background-color: #7a462e3f;
+    padding: .25rem;
+    color: var(--first-color);
+    border-radius: 2px;
+    margin-left: auto;
+    transition: .3s;
+}
+
+
+.governance__accordion-description {
+    font-size: var(--normal-font-size);
+    padding: 1.25rem 2.5rem 0 0;
+}
+
+.governance__accordion-content {
+    overflow: hidden;
+    height: 0;
+    transition: all .25s ease;
+}
+
+
+.governance__accordion-arrow svg {
+    transition: .4s;
+}
+
+
+/*Rotate icon and add shadows*/
+.accordion-open {
+    box-shadow: 0 12px 32px #8b4d2d2b;
+}
+
+.accordion-open .governance__accordion-arrow {
+    box-shadow: 0 2px 4px hsla(228, 66%, 45%, .1);
+}
+
+.accordion-open .governance__accordion-arrow svg {
+    transform: rotate(-180deg);
+}

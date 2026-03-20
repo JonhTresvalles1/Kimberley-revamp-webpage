@@ -18,40 +18,130 @@
 </head>
 
 <body>
-    <!--==================== HEADER ====================-->
+      <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="index.html" class="nav__logo">
-                <img src="assets/images/Logo.png" alt="">
-            </a>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="about.html" class="nav__link">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="project.html" class="nav__link">Our Projects</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="benefits.html" class="nav__link">Impact and Benefits</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="contact.html" class="nav__link">Contact us</a>
-                    </li>
-                    <div class="nav__btns">
-                        <a class="button" href="contact.html">Get Started</a>
-                    </div>
-                </ul>
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/images/Logo.png" alt="Logo">
+                </a>
 
-                <div class="nav__close" id="nav-close">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg class="nav__burger" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                    </svg>
+                    <svg class="nav__close" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+                        </path>
+                    </svg>
                 </div>
             </div>
-            <div class="nav__btns">
-                <div class="nav__toggle" id="nav-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
-                </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li>
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+
+                    <!--=============== DROPDOWN PROJECTS ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                           <a href="project.html">Our Projects</a>
+                           <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path></svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="wilinggin-fire-management.html" class="dropdown__link">
+                                    Wilinggin
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="dambimangari-fire-management.html" class="dropdown__link">
+                                    Dambimangari
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="wunambal-gaambera-uunguu-fire-management.html" class="dropdown__link">
+                                     Wunambal&nbsp;Gaambera&nbsp;Uunguu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="balanggarra-fire-management.html" class="dropdown__link">
+                                    Balanggarra
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                     <!--=============== Impact and Benefits ===============-->
+                     <li class="dropdown__item">
+                        <div class="nav__link">
+                           <a href="/">Impact and Benefits</a>
+                           <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path></svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="impact.html" class="dropdown__link">
+                                    Impact
+                                </a>
+                            </li>
+                            <li>
+                                <a href="benefits.html" class="dropdown__link">
+                                    Benefits
+                                </a>
+                            </li>
+                            <li>
+                                <a href="wilinggin-impact.html" class="dropdown__link">
+                                    Wilinggin&nbsp;Aboriginal&nbsp;Corporation
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--=============== Impact and Benefits ===============-->
+                     <li class="dropdown__item">
+                        <div class="nav__link">
+                           Who It's For
+                           <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path></svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="seller.html" class="dropdown__link">
+                                    Sellers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buyer.html" class="dropdown__link">
+                                    Buyers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="broker.html" class="dropdown__link">
+                                    Broker&nbsp;Services 
+                                </a>
+                            </li>
+                        </ul>   
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li class="nav__button">
+                        <a href="contact.html" class="nav__button button">Get Started</a>
+                    </li>
+                </ul>
             </div>
 
         </nav>
@@ -73,16 +163,16 @@
                             benefits.</p>
                         <div class="partners">
                             <a href="https://www.wilinggin.com.au/">
-                                <img src="assets/images/partner-logo-1.png" alt="">
+                                <img src="assets/images/partner-logo-1.png" alt="Wilinggin logo">
                             </a>
                             <a href="https://dambimangari.com.au/">
-                                <img src="assets/images/partner-logo-2.png" alt="">
+                                <img src="assets/images/partner-logo-2.png" alt="Dambimangari logo">
                             </a>
                             <a href="https://www.wunambalgaambera.org.au/">
-                                <img src="assets/images/partner-logo-3.png" alt="">
+                                <img src="assets/images/partner-logo-3.png" alt="Wunambalgaambera logo">
                             </a>
                             <a href="/">
-                                <img src="assets/images/partner-logo-4.png" alt="">
+                                <img src="assets/images/partner-logo-4.png" alt="Wanjina-Wunggurr PBC logo">
                             </a>
                         </div>
                     </div>
@@ -213,18 +303,17 @@
 
     </main>
 
-    <!--==================== FOOTER ====================-->
+     <!--==================== FOOTER ====================-->
     <footer class="footer section">
         <div class="footer__container container grid">
             <div class="footer__content">
                 <a href="#" class="footer__logo">
-                    <img width="200px" src="assets/images/KC-Revamp Logo (White).png" alt="">
+                    <img width="200px" src="assets/images/kc-revamp-logo(white).png" alt="Kimberley Carbon Logo">
                 </a>
 
                 <p class="footer__title-qoute">
                     <q>Australia’s premier Indigenous carbon credit auction platform, promoting outstanding Carbon
-                        Credit
-                        sale outcomes to help fund enhanced First Nations community and healthy Country outcomes.
+                        Credit sale outcomes to help fund enhanced First Nations community and healthy Country outcomes.
                     </q>
                 </p>
 
@@ -235,10 +324,19 @@
                 <p class="footer__title">Company</p>
 
                 <ul class="footer__data">
-                    <li class="footer__information">About</li>
-                    <li class="footer__information">Projects</li>
-                    <li class="footer__information">Impact Report</li>
-                    <li class="footer__information">Careers</li>
+                    <li class="footer__information">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="project.html">Projects</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="impact.html">Impact</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="about.html">Benefits</a>
+                    </li>
+                    
                 </ul>
             </div>
 
@@ -246,9 +344,15 @@
                 <p class="footer__title">Support</p>
 
                 <ul class="footer__data">
-                    <li class="footer__information">Contact</li>
-                    <li class="footer__information">FAQ</li>
-                    <li class="footer__information">Terms & Conditions</li>
+                    <li class="footer__information">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="broker.html">Broker Services</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="/">Terms & Conditions</a>
+                    </li>
                 </ul>
             </div>
 

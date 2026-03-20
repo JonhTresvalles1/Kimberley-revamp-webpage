@@ -21,37 +21,136 @@
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="index.html" class="nav__logo">
-                <img src="assets/images/Logo.png" alt="">
-            </a>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="about.html" class="nav__link">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="project.html" class="nav__link">Our Projects</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="benefits.html" class="nav__link">Impact and Benefits</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="contact.html" class="nav__link">Contact us</a>
-                    </li>
-                    <div class="nav__btns">
-                        <a class="button" href="contact.html">Get Started</a>
-                    </div>
-                </ul>
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/images/Logo.png" alt="Logo">
+                </a>
 
-                <div class="nav__close" id="nav-close">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg class="nav__burger" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                    </svg>
+                    <svg class="nav__close" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+                        </path>
+                    </svg>
                 </div>
             </div>
-            <div class="nav__btns">
-                <div class="nav__toggle" id="nav-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
-                </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li>
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+
+                    <!--=============== DROPDOWN PROJECTS ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <a href="project.html">Our Projects</a>
+                            <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                            </svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="wilinggin-fire-management.html" class="dropdown__link">
+                                    Wilinggin
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="dambimangari-fire-management.html" class="dropdown__link">
+                                    Dambimangari
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="wunambal-gaambera-uunguu-fire-management.html" class="dropdown__link">
+                                    Wunambal&nbsp;Gaambera&nbsp;Uunguu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="balanggarra-fire-management.html" class="dropdown__link">
+                                    Balanggarra
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--=============== Impact and Benefits ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <a href="/">Impact and Benefits</a>
+                            <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                            </svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="impact.html" class="dropdown__link">
+                                    Impact
+                                </a>
+                            </li>
+                            <li>
+                                <a href="benefits.html" class="dropdown__link">
+                                    Benefits
+                                </a>
+                            </li>
+                            <li>
+                                <a href="wilinggin-impact.html" class="dropdown__link">
+                                    Wilinggin&nbsp;Aboriginal&nbsp;Corporation
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--=============== Impact and Benefits ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Who It's For
+                            <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                            </svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="seller.html" class="dropdown__link">
+                                    Sellers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buyer.html" class="dropdown__link">
+                                    Buyers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="broker.html" class="dropdown__link">
+                                    Broker&nbsp;Services
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li class="nav__button">
+                        <a href="contact.html" class="nav__button button">Get Started</a>
+                    </li>
+                </ul>
             </div>
 
         </nav>
@@ -60,24 +159,322 @@
 
     <main class="main">
 
-        <section class="indigenous-story section container">
-            Benefits
+        <!--==================== Banner Hero ====================-->
+        <section class="banner__section benefit__section">
+            <div class="banner__container">
+                <div class="banner__content">
+                    <h1>Empowering Communities<br>Through Carbon</h1>
+                    <p>
+                        When you purchase carbon credits through Kimberley Carbon, you're investing in more than
+                        environmental outcomes.<br><br>
+                        You're supporting First Nations communities across Australia to maintain their connection to
+                        Country, preserve cultural knowledge, and build sustainable economic futures.
+                    </p>
+                </div>
+
+                <div class="banner__buttons">
+                    <a href="#about" class="button button--flex">
+                        Explore Credits
+                    </a>
+                    <a href="#about" class="button button--flex button--pill">
+                        Download Project Data
+                        <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== carbon icons ====================-->
+        <section class="carbon__section-icon container" id="">
+            <div class="section  grid">
+                <div class="carbon__data">
+                    <h2 class="section__title carbon__title">
+                        Economic Independence
+                    </h2>
+
+                    <p class="carbon__description">
+                        Revenue from carbon credit sales flows directly to First Nations communities and Traditional
+                        Owner groups, providing reliable income that supports:
+                    </p>
+                </div>
+
+                <div class="carbon__grid">
+                    <div class="carbon__grid-container grid cards__bg">
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/employment-icon.png" alt="On-Country Employment">
+                            <div class="carbon__grid-cards-data">
+                                <h4>On-Country Employment</h4>
+                                <p>Carbon projects create long-term employment for Aboriginal rangers and land managers.
+                                    Rangers deliver savanna burning, ecosystem monitoring, and fire management using
+                                    traditional knowledge and modern science.</p>
+                            </div>
+                        </div>
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/development-icon.png" alt="Infrastructure Development">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Infrastructure Development</h4>
+                                <p>Carbon project revenue supports essential infrastructure across remote communities.
+                                    Funding improves facilities, equipment, and operational capacity to strengthen
+                                    resilience and enable sustainable long-term development.</p>
+                            </div>
+                        </div>
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/education-icon.png" alt="Education & Training">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Education & Training</h4>
+                                <p>Carbon projects fund practical education and accredited training programs. Community
+                                    members develop skills in land management, environmental monitoring, governance, and
+                                    leadership for future opportunities.</p>
+                            </div>
+                        </div>
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/country-icon.png" alt="Connection to Country">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Connection to Country</h4>
+                                <p>Carbon initiatives support the protection of sacred sites and language. Traditional
+                                    ecological knowledge and cultural practices are strengthened and preserved for
+                                    future generations.</p>
+                            </div>
+                        </div>
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/climate-action.png" alt="Climate Action">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Climate Action</h4>
+                                <p>Carbon income supports the growth of community-owned enterprises. Local businesses
+                                    create employment, diversify income streams, and build long-term economic
+                                    sustainability within communities.</p>
+                            </div>
+                        </div>
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/knowledge-icon.png" alt="Knowledge Sharing">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Knowledge Sharing</h4>
+                                <p>Carbon funding contributes to health and social initiatives. Programs strengthen
+                                    wellbeing, support connection to Country, and improve resilience across
+                                    participating communities.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--==================== traditional slider ====================-->
+        <section class="traditional section">
+            <div class="traditional__container">
+
+                <div class="traditional__header">
+                    <h2>Traditional Fire Management</h2>
+                    <p>
+                        Our carbon projects center on traditional fire management practices that
+                        First Nations people have used for tens of thousands of years. These cool,
+                        early dry-season burns reduce fuel loads and prevent destructive late-season
+                        wildfires, protecting both Country and climate.
+                    </p>
+                </div>
+
+                <div class="tfm-slider swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="slider__card swiper-slide">
+                            <div>
+                                <h3>Intergenerational Learning</h3>
+                                <p>
+                                    Carbon projects create opportunities for Elders to pass on cultural
+                                    knowledge to younger generations through on-Country work, training,
+                                    and hands-on fire management programs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="slider__card swiper-slide">
+                            <div>
+                                <h3>Cultural Authority & Identity</h3>
+                                <p>
+                                    Traditional Owners exercise custodial responsibilities according to
+                                    ancestral law, while young people build cultural confidence and
+                                    community pride through ranger work and land management.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="slider__card swiper-slide">
+                            <div>
+                                <h3>Connection to Country</h3>
+                                <p>
+                                    Carbon projects support regular access to Country, allowing
+                                    Traditional Owners to reach culturally significant places while
+                                    gaining wellbeing benefits from time spent on the land.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="slider__card swiper-slide">
+                            <div>
+                                <h3>Cultural Practice & Ceremony</h3>
+                                <p>
+                                    Fire management activities are integrated with traditional
+                                    ceremonies, cultural protocols, and seasonal practices aligned
+                                    with cultural calendars and Lore.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="slider__card swiper-slide">
+                            <div>
+                                <h3>Cultural Continuity</h3>
+                                <p>
+                                    These programs demonstrate that traditional knowledge remains
+                                    relevant today, combining cultural practices with contemporary
+                                    methods while creating economic opportunities for communities.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== outcome cards====================-->
+        <section class="outcome section">
+            <div class="outcome__container container">
+                <div class="outcome__data">
+                    <h2 class="outcome__title section__title">
+                        Climate & Country Impact
+                    </h2>
+
+                    <p class="carbon__description">
+                        Supporting climate action, biodiversity, and cultural heritage through strategic fire
+                        management.
+                    </p>
+                </div>
+
+
+                <div class="outcome__container-cards grid">
+
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/emissions-reduction-icon.svg" alt="Emissions Reduction Icon">
+                            <h3>Emissions Reduction</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Our early dry season burns release less greenhouse gas than late dry season fires,
+                                reducing overall emissions while maintaining ecological balance.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/measurable-icon.svg" alt="Measurable Climate Results">
+                            <h3>Measurable Climate Results</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Over 40% reduction in annual emissions, reduced fire coverage by about one-third, and
+                                thousands of ACCUs generated yearly.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/protection-icon.svg" alt="Habitat & Species Protection">
+                            <h3>Habitat & Species Protection</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Fire-sensitive vegetation is maintained, and critical habitats for species like Northern
+                                Quoll, Gouldian Finch, and Black Grasswren are safeguarded.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/emissions-reduction-icon.svg" alt="Biodiversity & Connectivity">
+                            <h3>Biodiversity & Connectivity</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Varied fire ages create habitat mosaics, strengthen ecosystems, preserve connectivity,
+                                and reduce wildlife loss from uncontrolled fires.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/fire-regime-icon.svg" alt="Fire Regime Optimisation">
+                            <h3>Fire Regime Optimisation</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Restoring natural fire patterns lowers the risk of catastrophic wildfires and improves
+                                landscape resilience to climate variability.</p>
+                        </div>
+                    </div>
+                    <div class="outcome__card">
+                        <div class="outcome__card-icon">
+                            <img src="/assets/images/cultural-icon.svg" alt="Cultural Site Protection">
+                            <h3>Cultural Site Protection</h3>
+                        </div>
+
+                        <div class="outcome__card-data">
+                            <p>Ancient rock art, sacred sites, ceremonial grounds, and archaeological areas are shielded
+                                from smoke and heat damage.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--==================== newsletter__banner ====================-->
+        <section class="newsletter__banner container" id="">
+            <div class="newsletter__banner-wrapper">
+                <div class="newsletter__banner-container">
+                    <div class="newsletter__banner-data">
+                        <h2 class="section__title newsletter__banner-title">
+                            Join Us in Protecting Country and Creating Future
+                        </h2>
+
+                        <p class="newsletter__banner-description">
+                            Kimberley Carbon offers organisations a meaningful pathway to achieve genuine carbon
+                            neutrality while supporting Indigenous self-determination, cultural preservation, and
+                            environmental protection. <br><br>
+                            When you choose Kimberley Carbon, you invest beyond emissions offsetting. You invest in
+                            Country, culture, and community, supporting outcomes that create lasting value for First
+                            Nations people and the environment.
+                        </p>
+
+                        <a href="/" class="button button--white">Contact Us</a>
+                    </div>
+                    <img src="assets/images/newletter-banner.png" alt="newletter-banner"
+                        class="newsletter__banner-img" />
+                </div>
+            </div>
         </section>
 
     </main>
 
-     <!--==================== FOOTER ====================-->
+      <!--==================== FOOTER ====================-->
     <footer class="footer section">
         <div class="footer__container container grid">
             <div class="footer__content">
                 <a href="#" class="footer__logo">
-                    <img width="200px" src="assets/images/KC-Revamp Logo (White).png" alt="">
+                    <img width="200px" src="assets/images/kc-revamp-logo(white).png" alt="Kimberley Carbon Logo">
                 </a>
 
                 <p class="footer__title-qoute">
                     <q>Australia’s premier Indigenous carbon credit auction platform, promoting outstanding Carbon
-                        Credit
-                        sale outcomes to help fund enhanced First Nations community and healthy Country outcomes.
+                        Credit sale outcomes to help fund enhanced First Nations community and healthy Country outcomes.
                     </q>
                 </p>
 
@@ -88,10 +485,19 @@
                 <p class="footer__title">Company</p>
 
                 <ul class="footer__data">
-                    <li class="footer__information">About</li>
-                    <li class="footer__information">Projects</li>
-                    <li class="footer__information">Impact Report</li>
-                    <li class="footer__information">Careers</li>
+                    <li class="footer__information">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="project.html">Projects</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="impact.html">Impact</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="about.html">Benefits</a>
+                    </li>
+                    
                 </ul>
             </div>
 
@@ -99,9 +505,15 @@
                 <p class="footer__title">Support</p>
 
                 <ul class="footer__data">
-                    <li class="footer__information">Contact</li>
-                    <li class="footer__information">FAQ</li>
-                    <li class="footer__information">Terms & Conditions</li>
+                    <li class="footer__information">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="broker.html">Broker Services</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="/">Terms & Conditions</a>
+                    </li>
                 </ul>
             </div>
 
@@ -125,7 +537,10 @@
 
     <!--=============== SCROLL UP ===============-->
     <a href="#" class="scrollup" id="scroll-up">
-        <svg class="scrollup__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path></svg>
+        <svg class="scrollup__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            fill="currentColor">
+            <path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path>
+        </svg>
     </a>
     <!--=============== slider ===============-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

@@ -1,0 +1,50 @@
+.traditional {
+  text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+
+.traditional__header {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+
+.traditional__header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  
+}
+
+.traditional__header p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.tfm-slider {
+  padding: 2rem 0;
+}
+
+.slider__card {
+  display: grid;
+  align-items: center;
+  background: #7b4a2e;
+  color: #fff;
+  padding: 2.5rem 3rem;
+  border-radius: .75rem;
+  text-align: left;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+.slider__card h3 {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1rem;
+  color: var(--container-color);
+}
+
+.slider__card p {
+  line-height: 1.6;
+}

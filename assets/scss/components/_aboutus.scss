@@ -1,0 +1,97 @@
+
+
+.aboutUs{
+    padding: 3rem 0 5rem;
+    color: #fff;
+}
+
+.aboutus__container{
+    position: relative;
+    background-image: url('../images/protecting-country.png');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px 180px;
+    text-align: center;
+    color: #fff;
+}
+
+.aboutus__container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right,
+    rgba(125,78,54,0.68),
+    rgba(122,70,46,0.68)
+  );
+}
+
+.aboutus__content {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 0;
+  z-index: 2;
+}
+
+.aboutus__content h1 {
+  font-size: var(--h1-font-size);
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.aboutus__content p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: auto;
+}
+
+.aboutus__image {
+  position: relative;
+  margin-top: -120px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 20px 60px;
+  flex-wrap: wrap;
+}
+
+.image-card {
+  width: 367px;
+  border-radius: 15px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.aboutus__text{
+    padding: 4rem 1rem 1rem;
+}
+
+.aboutus__text-container{
+    gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .image-card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 100px 20px 150px;
+  }
+
+  .image-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}

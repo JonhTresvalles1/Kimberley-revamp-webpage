@@ -21,37 +21,127 @@
      <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="index.html" class="nav__logo">
-                <img src="assets/images/Logo.png" alt="">
-            </a>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="about.html" class="nav__link">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="project.html" class="nav__link">Our Projects</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="benefits.html" class="nav__link">Impact and Benefits</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="contact.html" class="nav__link">Contact us</a>
-                    </li>
-                    <div class="nav__btns">
-                        <a class="button" href="contact.html">Get Started</a>
-                    </div>
-                </ul>
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/images/Logo.png" alt="Logo">
+                </a>
 
-                <div class="nav__close" id="nav-close">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg class="nav__burger" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                    </svg>
+                    <svg class="nav__close" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+                        </path>
+                    </svg>
                 </div>
             </div>
-            <div class="nav__btns">
-                <div class="nav__toggle" id="nav-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
-                </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li>
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+
+                    <!--=============== DROPDOWN PROJECTS ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                           <a href="project.html">Our Projects</a>
+                           <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path></svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="wilinggin-fire-management.html" class="dropdown__link">
+                                    Wilinggin
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="dambimangari-fire-management.html" class="dropdown__link">
+                                    Dambimangari
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="wunambal-gaambera-uunguu-fire-management.html" class="dropdown__link">
+                                     Wunambal&nbsp;Gaambera&nbsp;Uunguu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="balanggarra-fire-management.html" class="dropdown__link">
+                                    Balanggarra
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                     <!--=============== Impact and Benefits ===============-->
+                     <li class="dropdown__item">
+                        <div class="nav__link">
+                           <a href="/">Impact and Benefits</a>
+                           <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path></svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="impact.html" class="dropdown__link">
+                                    Impact
+                                </a>
+                            </li>
+                            <li>
+                                <a href="benefits.html" class="dropdown__link">
+                                    Benefits
+                                </a>
+                            </li>
+                            <li>
+                                <a href="wilinggin-impact.html" class="dropdown__link">
+                                    Wilinggin&nbsp;Aboriginal&nbsp;Corporation
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--=============== Impact and Benefits ===============-->
+                     <li class="dropdown__item">
+                        <div class="nav__link">
+                           Who It's For
+                           <svg class="dropdown__arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path></svg>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="seller.html" class="dropdown__link">
+                                    Sellers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="buyer.html" class="dropdown__link">
+                                    Buyers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="broker.html" class="dropdown__link">
+                                    Broker&nbsp;Services 
+                                </a>
+                            </li>
+                        </ul>   
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li class="nav__button">
+                        <a href="contact.html" class="nav__button button">Get Started</a>
+                    </li>
+                </ul>
             </div>
 
         </nav>
@@ -59,10 +149,241 @@
 
     <main class="main">
 
-        <section class="indigenous-story section container">
-            About Us
+        <!--==================== Protect ====================-->
+        <section class="aboutus">
+            <div class="aboutus__container">
+                <div class="aboutus__content">
+                    <h1>About Us</h1>
+                    <p>
+                    Transforming natural resources and waste materials into renewable products,
+                    including biochar, renewable diesel, and pelletized wood feedstock,
+                    for a cleaner, circular energy future.
+                    </p>
+                </div>
+            </div>
+
+            <div class="aboutus__image">
+                <div class="image-card">
+                    <img src="/assets/images/About-Us-1.png" alt="">
+                </div>
+                <div class="image-card">
+                    <img src="/assets/images/About-Us-2.png" alt="">
+                </div>
+                <div class="image-card">
+                    <img src="/assets/images/About-Us-3.png" alt="">
+                </div>
+            </div>
         </section>
 
+         <!--==================== section text ====================-->
+        <section class="aboutus__text container">
+            <div class="aboutus__text-container grid">
+                <div class="aboutus__text-data">
+                    <p class="aboutus__text-description">
+                        Kimberley Carbon is Australia’s first Indigenous Carbon Exchange, created to give First Nations organisations greater control over their carbon credits. Our platform provides a transparent marketplace where Indigenous ACCU holders can sell their credits alongside Australian businesses and individuals. By improving how carbon credits are exchanged, we help ensure fair market governance for premium Indigenous carbon credits.
+                    </p>
+                </div>
+                <div class="aboutus__text-data">
+                    <p class="aboutus__text-description">
+                       Our platform brings together two fundamental objectives: protecting Country through traditional fire management while creating sustainable economic opportunities for Indigenous communities. When organisations purchase carbon credits through Kimberley Carbon, they support not only environmental outcomes but also cultural preservation, community wellbeing, and the continuation of knowledge passed down for millennia.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== vision 1 ====================-->
+        <section class="vision container" id="">
+            <div class="vision__container grid">
+                <img src="assets/images/our-vision.png" alt="" class="vision__img" />
+                <div class="vision__data">
+                    <h2 class="section__title vision__title">
+                        Our Vision
+                    </h2>
+
+                    <p class="vision__description">
+                        We believe Indigenous knowledge and traditional land management practices are essential to addressing climate change.
+                        <br><br>
+                        Through Kimberley Carbon, we support Indigenous communities to protect Country, preserve culture, and build strong futures while delivering verified climate outcomes.
+                    </p>
+
+                    <a href="#" class="button">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== vision 2 ====================-->
+        <section class="vision container" id="">
+            <div class="vision__container grid">
+                <div class="vision__data">
+                    <h2 class="section__title vision__title">
+                        Traditional Fire Management and Carbon Markets
+                    </h2>
+
+                    <p class="vision__description">
+                        For thousands of years, people across the Kimberley have practised early dry-season fire management using cool, controlled burns. This approach protects Country, reduces greenhouse gas emissions, and helps prevent destructive late-season wildfires.
+                        <br><br>
+                        These practices are recognised under the Australian Government’s Emissions Reduction Fund, enabling Indigenous fire projects to generate Australian Carbon Credit Units. Carbon credits provide funding to support Rangers, maintain operations, and keep people connected to Country.
+                    </p>
+
+                    <a href="#" class="button">Learn more</a>
+                </div>
+                <img src="assets/images/fire-management.png" alt="" class="vision__img" />
+            </div>
+        </section>
+
+        <!--==================== carbon icons ====================-->
+        <section class="carbon__section-icon container" id="">
+            <div class="section  grid">
+                <div class="carbon__data">
+                    <h2 class="section__title carbon__title">
+                        More Than Carbon Credits
+                    </h2>
+
+                    <p class="carbon__description">
+                        While Kimberley Carbon facilitates carbon credit transactions, our purpose extends beyond the market. Every credit represents multiple layers of governance.
+                    </p>
+                </div>
+
+                <div class="carbon__grid">
+                    <div class="carbon__grid-container grid">
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/book-icon.png" alt="Cultural Preservation">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Cultural Preservation</h4>
+                                <p>Safeguarding and transferring traditional fire knowledge through on-Country practice, storytelling, and intergenerational learning.</p>
+                            </div>
+                        </div>
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/biodiversity-icon.png" alt="Caring for Country">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Caring for Country</h4>
+                                <p>Protecting biodiversity, sacred sites, and landscapes through proven traditional land and fire management practices.</p>
+                            </div>
+                        </div>
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/community-icon.png" alt="Community Empowerment">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Community Empowerment</h4>
+                                <p>Creating meaningful, long-term employment for Indigenous Rangers and strengthening local community capability.</p>
+                            </div>
+                        </div>
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/country-icon.png" alt="Connection to Country">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Connection to Country</h4>
+                                <p>Supporting ongoing cultural practice by enabling Traditional Owners to live, work, and remain active on Country.</p>
+                            </div>
+                        </div>
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/climate-action.png" alt="Climate Action">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Climate Action</h4>
+                                <p>Delivering verified emissions reductions through early-season burning that prevents destructive late-season wildfires.</p>
+                            </div>
+                        </div>
+                        <div class="carbon__grid-cards">
+                            <img src="/assets/images/sharing-icon.png" alt="Knowledge Sharing">
+                            <div class="carbon__grid-cards-data">
+                                <h4>Knowledge Sharing</h4>
+                                <p>Sharing Indigenous knowledge and practices with broader communities to foster learning, collaboration, and respect.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+         <!--==================== governance ====================-->
+        <section class="governance section" id="governance">
+            <div class="governance__container container grid">
+                <div class="governance__images">
+                    <div class="governance__img">
+                        <img src="/assets/images/governance.png" alt="Governance and Accountability">
+                    </div>
+                </div>
+
+                <div class="governance__content">
+                    <div class="governance__data">
+                        <h2 class="section__title">
+                            Governance and Accountability
+                        </h2>
+                        <p class="governance__description">
+                            Kimberley Carbon is guided by strong governance structures to ensure all decisions prioritize culture, community, and the environment. Learn about our board, elders, and ownership structure below.
+                        </p>
+                    </div>
+
+                    <div class="governance__accordion">
+                        <div class="governance__accordion-item">
+                            <header class="governance__accordion-header">
+                                <svg class="governance__accordion-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z"></path></svg>
+                                <h3 class="governance__accordion-title">
+                                    Board of Directors
+                                </h3>
+                            </header>
+
+                            <div class="governance__accordion-content">
+                                <p class="governance__accordion-description">
+                                    Our board brings together expertise in carbon markets, environmental management, and Indigenous leadership. They provide strategic oversight and ensure that Kimberley Carbon operates with accountability and long-term vision.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="governance__accordion-item">
+                            <header class="governance__accordion-header">
+                                <svg class="governance__accordion-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z"></path></svg>
+                                <h3 class="governance__accordion-title">
+                                    Respected Elders
+                                </h3>
+                            </header>
+
+                            <div class="governance__accordion-content">
+                                <p class="governance__accordion-description">
+                                    The guidance of our respected Elders is central to our work. They uphold cultural knowledge, advise on community engagement, and ensure that our projects honor and protect Indigenous heritage.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="governance__accordion-item">
+                            <header class="governance__accordion-header">
+                                <svg class="governance__accordion-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm4 10.414-2.707-2.707 1.414-1.414L11 12.586l3.793-3.793 1.414 1.414L11 15.414z"></path></svg>
+                                <h3 class="governance__accordion-title">
+                                    Wanjina-Wunggurr PBC
+                                </h3>
+                            </header>
+
+                            <div class="governance__accordion-content">
+                                <p class="governance__accordion-description">
+                                    As the corporate trustee for the Wanjina-Wunggurr cultural group, the Wanjina-Wunggurr Prescribed Body Corporate (PBC) plays a key role in ownership, decision-making, and safeguarding Country. Their involvement guarantees that Indigenous voices remain at the heart of Kimberley Carbon.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!--==================== newsletter__banner ====================-->
+        <section class="newsletter__banner container" id="">
+            <div class="newsletter__banner-wrapper">
+                <div class="newsletter__banner-container">
+                    <div class="newsletter__banner-data">
+                        <h2 class="section__title newsletter__banner-title">
+                            Join Us in Protecting Country and Creating Future
+                        </h2>
+
+                        <p class="newsletter__banner-description">
+                            Kimberley Carbon offers organisations a meaningful pathway to achieve genuine carbon neutrality while supporting Indigenous self-determination, cultural preservation, and environmental protection. <br><br>
+                            When you choose Kimberley Carbon, you invest beyond emissions offsetting. You invest in Country, culture, and community, supporting outcomes that create lasting value for First Nations people and the environment.
+                        </p>
+
+                        <a href="/" class="button button--white">Contact Us</a>
+                    </div>
+                    <img src="assets/images/newletter-banner.png" alt="newletter-banner" class="newsletter__banner-img" />
+                </div>
+            </div>
+        </section>
 
     </main>
 
@@ -71,13 +392,12 @@
         <div class="footer__container container grid">
             <div class="footer__content">
                 <a href="#" class="footer__logo">
-                    <img width="200px" src="/assets/images/KC-Revamp Logo (White).png" alt="">
+                    <img width="200px" src="assets/images/kc-revamp-logo(white).png" alt="Kimberley Carbon Logo">
                 </a>
 
                 <p class="footer__title-qoute">
                     <q>Australia’s premier Indigenous carbon credit auction platform, promoting outstanding Carbon
-                        Credit
-                        sale outcomes to help fund enhanced First Nations community and healthy Country outcomes.
+                        Credit sale outcomes to help fund enhanced First Nations community and healthy Country outcomes.
                     </q>
                 </p>
 
@@ -88,10 +408,19 @@
                 <p class="footer__title">Company</p>
 
                 <ul class="footer__data">
-                    <li class="footer__information">About</li>
-                    <li class="footer__information">Projects</li>
-                    <li class="footer__information">Impact Report</li>
-                    <li class="footer__information">Careers</li>
+                    <li class="footer__information">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="project.html">Projects</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="impact.html">Impact</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="about.html">Benefits</a>
+                    </li>
+                    
                 </ul>
             </div>
 
@@ -99,9 +428,15 @@
                 <p class="footer__title">Support</p>
 
                 <ul class="footer__data">
-                    <li class="footer__information">Contact</li>
-                    <li class="footer__information">FAQ</li>
-                    <li class="footer__information">Terms & Conditions</li>
+                    <li class="footer__information">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="broker.html">Broker Services</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="/">Terms & Conditions</a>
+                    </li>
                 </ul>
             </div>
 

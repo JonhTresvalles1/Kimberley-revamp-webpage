@@ -1,0 +1,18 @@
+
+.vision{
+    padding: 4rem 1rem;
+}
+
+.vision__container{
+    align-items: center;
+    gap: 2rem;
+}
+
+.vision__title,
+.vision__description{
+    margin-bottom: var(--mb-1);
+}
+
+.vision__img{
+    border-radius: .5rem;
+}
